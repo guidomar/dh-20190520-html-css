@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  overflow: hidden;
+  /*background-color: white;*/
+}
+
+body {
+  background-color: aqua;
+}
+
+header {
+  background-color: tomato;
+  position: static;
+  top: auto;
+  width: 1140px;
+}
+
+article.articulos {
+  width: 390px;
+  float: left;
+  border-left: 5px;
+  border-right: 5px;
+  border-top: 5px;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.quack {
+  width: 50%;
+}
+
+.sort {
+  width: 25%;
+}
+
+.tros {
+  width: 25%;
+}
+
+h2.title {
+  background-color: white;
+  width: 16.7%;
+  margin-left: 825px;
+  margin-right: 7.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tutoriales {
+  background-color: white;
+  width: 16.7%;
+  margin-left: 825px;
+  margin-right: 7.5px;
+  margin-top: 0px;
+  margin-bottom: -15px;
+
+}
