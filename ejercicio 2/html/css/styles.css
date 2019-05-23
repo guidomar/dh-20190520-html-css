@@ -1,65 +1,151 @@
+/* Global Properties */
 * {
   box-sizing: border-box;
 }
 
+body {
+  /*background-color: lightblue;*/
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
 main {
   overflow: hidden;
-  /*background-color: white;*/
 }
 
-body {
-  background-color: aqua;
-}
-
+/* Header */
 header {
-  background-color: tomato;
-  position: static;
-  top: auto;
-  width: 1140px;
+  width: 990px;
+  background-color: red;
+  margin-bottom: 26px;
+  padding: 6px;
 }
 
-article.articulos {
-  width: 390px;
+header img {
+  display: inline-block;
   float: left;
-  border-left: 5px;
-  border-right: 5px;
-  border-top: 5px;
-  margin-top: 7.5px;
-  margin-left: 7.5px;
-  margin-right: 7.5px;
-  background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  /*background-color: blue;*/
+  width: 95px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
 }
 
-.quack {
-  width: 50%;
+header div p a {
+  text-decoration: none;
+  color: white;
 }
 
-.sort {
-  width: 25%;
+.navigation {
+  display: inline-block;
+  margin: 10px;
+  /*background-color: green;*/
+
 }
 
-.tros {
-  width: 25%;
+.navegacion {
+  display: inline-block;
+  margin: 5px;
 }
 
-h2.title {
-  background-color: white;
-  width: 16.7%;
-  margin-left: 825px;
-  margin-right: 7.5px;
+.user {
+  display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 300px;
+  /*background-color: yellow;*/
+}
+
+.usuario {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Articles */
+.stand {
+  width: 660px;
+  float: left;
+  background-color: white;
+}
+
+.articulos {
+  width: 300px;
+  border: 10px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+}
+
+button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Tutorials and Advertising */
+.tp {
+  float: left;
+  margin: 10px;
+}
+
+/* Tutorials */
+.titlea {
+  width: 320px;
+  background-color: white;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.tutorials {
+  width: 320px;
+  background-color: lightblue;
 }
 
 .tutoriales {
+  display: inline-block;
   background-color: white;
-  width: 16.7%;
-  margin-left: 825px;
-  margin-right: 7.5px;
-  margin-top: 0px;
-  margin-bottom: -15px;
+  margin-bottom: 2px;
+}
 
+.tutoriales p {
+  float: right;
+  display: inline-block;
+}
+
+.tutoriales img {
+  width: 120px;
+  margin: 2px;
+}
+
+.test {
+  float: left;
+}
+
+/* Advertising */
+.titleb {
+  width: 320px;
+  background-color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.publicity {
+  width: 320px;
+  background-color: white;
+}
+
+.publicidad {
+  margin-bottom: 10px;
+  background-color: white;
 }
