@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
   </head>
-  <body>
+  <body background="img/bg-2.png">
     <!-- IDEA: Header -->
     <header>
       <img src="img/logo.png" alt="Logo del sitio">
@@ -22,6 +22,55 @@
     </header>
     <main>
       <!-- IDEA: Form -->
+      <form class="" action="index.html" method="post">
+        <h1 class="h1registro">REGISTRATE</h1>
+
+        <label for="nombre">Nombre</label>
+        <input class="width" type="text" name="nombre" value="" placeholder="Nombre" required>
+        <p class="obligatorio">Obligatorio.</p>
+
+        <label for="email">Email</label>
+        <input class="width" type="text" name="email" value="" placeholder="Email" required>
+        <p class="obligatorio">Obligatorio.</p>
+
+        <label for="psw">Contraseña</label>
+        <input class="width" type="password" name="psw" value="" placeholder="Contraseña" required>
+        <p class="obligatorio">Obligatorio.</p>
+
+        <label for="pais"><h2>País de Nacimiento</h2></label>
+        <select class="" name="pais">
+          <option value="argentina">Argentina</option>
+          <option value="brazil">Brazil</option>
+          <option value="chile">Chile</option>
+          <option value="uruguay">Uruguay</option>
+
+        </select>
+
+        <label for="genero"><h2>Género</h2></label>
+        <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="femenino">Femenino
+        <input type="radio" name="genero" value="na">Prefiero no decirlo
+
+        <label for="hobbies"><h2>Hobbies</h2></label>
+        <input type="checkbox" name="hobbies" value="guitarra">Guitarra
+        <input type="checkbox" name="hobbies" value="futbol">Fútbol
+        <input type="checkbox" name="hobbies" value="tenis">Tenis
+        <input type="checkbox" name="hobbies" value="programacion">Programación
+
+        <label for="comentarios"><h2>Dejanos tus comentarios</h2></label>
+        <textarea name="comentarios" rows="8" cols="80"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="condiciones" value="acepto" required>Acepto los términos y condiciones.
+        <br>
+        <br>
+        <button class="registro" type="submit" name="registrarme"><a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">Registrarme</a></button>
+        <button class="registro" type="button" name="cancelar">Cancelar</button>
+        <br>
+        <br>
+        <br>
+
+      </form>
 
     </main>
 
