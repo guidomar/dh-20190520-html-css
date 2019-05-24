@@ -154,7 +154,6 @@ header div p a {
 }
 
 /* Forms */
-/* Registro */
 
 form {
   width: 350px;
@@ -204,4 +203,13 @@ textarea {
 
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.registro a {
+  text-decoration: none;
+  color: white;
+}
+
+#recordarme {
+  margin-left: 70%;
 }
