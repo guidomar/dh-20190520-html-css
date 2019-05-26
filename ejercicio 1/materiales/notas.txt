@@ -1,0 +1,8 @@
+Te tiro una que me sirve mucho, que es crear un archivo de notas.txt y tenerlo abierto junto con el html y el css. Y ahí copias algunas
+cosas que vas a estar necesitando durante el armado, como links y demás. 
+Otra, que seguro ya la tenes, es "Ditto". Es un portapapeles múltiple, para no tener que estar haciendo copy/paste todo el tiempo. Por
+ejemplo con el contenido del menú. Primero copias item por item, y después con algún atajo que elijas te abre una ventana con lo
+último que tenes en el portapapeles. Te cambia la vida!
+
+Si recuerdo alguna más la agrego acá. 
+Abzo!
